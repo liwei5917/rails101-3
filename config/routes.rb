@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     resources :posts
   end
 
-  namespace :accout do
+  namespace :account do
     resources :groups
   end
 
